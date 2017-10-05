@@ -1,9 +1,11 @@
 # Rails Decal Fall 2017 Homework 4
 
-## Overview
-Welcome to homework 4 of the Rails DeCal!
+## Overview 
+Welcome to homework 4 of the Rails DeCal! This homework is due **Oct 11th at 6:00PM**
 
-We've finally learned about models! At the end of this homework, you will have built an app with the models `Cat`, `Todo`, and `User` with the specifications below (along with their associated tables). As well, you will have created a view to render all the models persisted in your database. Finally, you will have responded to the questions in ANSWERS.md.
+We've finally learned about models! At the end of this homework, you will have built an app with the models `Cat`, `Todo`, and `User` with the specifications below (along with their associated tables). As well, you will have created a view to render all the models persisted in your database. Finally, you will have responded to the questions in `ANSWERS.md`.
+
+As always, remember to `bundle install` before getting started.
 
 TL;DR: you will build a basic TODO app, an app pretty common in many Rails tutorials.
 
@@ -78,7 +80,13 @@ Hint: How can we retrieve all the objects in our database? The documentation [he
 Create a form (`form_for`) that submits a `POST` request that will create the a `Todo` object in your database. Verify this works by visiting your home page and seeing that the object you created shows up.
 
 ### Final questions
-Answer the questions in ANSWERS.md.
+Answer the questions in `ANSWERS.md`.
 
 ## Submission
-Push up your code and fill out the submission form for this homework, which can be found on Piazza.
+Run these commands to submit:
+```
+git add .
+git commit -am "whatever message you want"
+git push origin master
+```
+Fill out the submission form for this homework, which can be found on Piazza.
