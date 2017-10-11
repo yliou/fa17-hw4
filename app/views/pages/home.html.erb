@@ -37,3 +37,9 @@
   </tr>
 <% end %>                        
 </table> 
+<%= form_for @Pose, url: {action: "create"}, html: {class: "nifty_form"} do |f| %>
+  <%= f.text_field :tasks %>
+  <%= f.text_field :finished %>
+
+  <%= f.submit "Add Todo" %>
+<% end %>
